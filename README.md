@@ -16,6 +16,14 @@ https://www.dfrobot.com/product-2708.html?tracking=hOuIhw4fDaJRTdy4abz04npbQC78d
 
 Also: 5v3A Power Supply, LED, 7 Segment display
 
+# Setup
+1. Install Ubuntu
+2. Install OpenClaw curl -fsSL https://openclaw.ai/install.sh | bash
+3. Run these commands:
+sudo apt install python3-pip
+pip3 install pyserial
+sudo usermod -a -G dialout roni
+
 # Contact
 
 Roni Bandini
